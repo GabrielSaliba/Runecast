@@ -5,7 +5,7 @@ import styles from './styles.module.scss'
 
 export function Header() {
   //https://date-fns.org/v2.21.1/docs/format
-  const currentDate = format(new Date(), 'EEEEEEE, d MMM', {
+  const currentDate = format(new Date(), 'EEEEEE, d MMM', {
     locale: ptBR,
   })  
 
