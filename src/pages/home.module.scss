@@ -16,6 +16,10 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 
+    @media screen and (max-width: 1600px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
     li {
       background: var(--white);
       border: 1px solid var(--gray-100);
