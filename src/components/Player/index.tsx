@@ -10,14 +10,9 @@ import styles from './styles.module.scss'
 
 export function Player() {
 
-  const { episodeList, currentEpisodeIndex } = useContext(PlayerContext)
+  const { episodeList, currentEpisodeIndex, isPlaying, togglePlay  } = useContext(PlayerContext)
 
   const episode = episodeList[currentEpisodeIndex]
-
-  const title = episode ? ("Habilitado") : ("Desabilitado")
-
-  console.log(episode)
-
 
   return (
     <div className={styles.playerContainer}>
@@ -59,6 +54,10 @@ export function Player() {
           <span>00:00</span>
         </div>
 
+        { episode && (
+          <audio src={episode.url} autoPlay/>
+        )}
+
         <div className={styles.buttons}>
           <button type="button" disabled={!episode}>
             <img src="/shuffle.svg" alt="Embaralhar" />
@@ -68,8 +67,11 @@ export function Player() {
             <img src="/play-previous.svg" alt="Tocar anterior" />
           </button>
 
-          <button type="button" className={styles.playButton} disabled={!episode}>
-            <img src="/play.svg" alt="Tocar"/>
+          <button type="button" className={styles.playButton} disabled={!episode} onClick={togglePlay}>
+            { isPlaying 
+              ? <img src="/pause.svg" alt="Pausar"/>
+              : <img src="/play.svg" alt="Tocar"/>
+            }
           </button>
 
           <button type="button" disabled={!episode}>
