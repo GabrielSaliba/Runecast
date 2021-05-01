@@ -33,9 +33,14 @@
 
 .currentEpisode {
   text-align: center;
+  margin-top: 1.5rem;
   
   img {
     border-radius: 1.5rem;
+
+    @media screen and (max-width: 1600px) {
+      width: 10rem;
+    }
   }
 
   strong {
