@@ -10,13 +10,16 @@ import styles from './styles.module.scss'
 
 export function Player() {
 
-
   const {
     episodeList,
     currentEpisodeIndex,
     isPlaying,
     togglePlay,
-    setPlayingState
+    setPlayingState,
+    playNext,
+    playPrevious,
+    hasNext,
+    hasPrevious
   } = useContext(PlayerContext)
 
   const episode = episodeList[currentEpisodeIndex]
@@ -88,7 +91,7 @@ export function Player() {
             <img src="/shuffle.svg" alt="Embaralhar" />
           </button>
 
-          <button type="button" disabled={!episode}>
+          <button type="button" onClick={playPrevious} disabled={!episode || !hasPrevious}>
             <img src="/play-previous.svg" alt="Tocar anterior" />
           </button>
 
@@ -99,7 +102,7 @@ export function Player() {
             }
           </button>
 
-          <button type="button" disabled={!episode}>
+          <button type="button" onClick={playNext} disabled={!episode || !hasNext}>
             <img src="/play-next.svg" alt="Tocar próxima" />
           </button>
 
@@ -110,5 +113,5 @@ export function Player() {
       </footer>
     </div>
   )
-
 }
+
