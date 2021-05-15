@@ -4,7 +4,7 @@ import Slider from 'rc-slider'
 
 import 'rc-slider/assets/index.css';
 
-import { PlayerContext } from '../../contexts/PlayerContext'
+import { usePlayer } from '../../contexts/PlayerContext'
 
 import styles from './styles.module.scss'
 
@@ -14,13 +14,14 @@ export function Player() {
     episodeList,
     currentEpisodeIndex,
     isPlaying,
+    isLooping,
     togglePlay,
     setPlayingState,
     playNext,
     playPrevious,
     hasNext,
     hasPrevious
-  } = useContext(PlayerContext)
+  } = usePlayer();
 
   const episode = episodeList[currentEpisodeIndex]
 
@@ -81,6 +82,7 @@ export function Player() {
           <audio
             src={episode.url}
             ref={audioRef}
+            loop={isLooping}
             onPlay={() => setPlayingState(true)}
             onPause={() => setPlayingState(false)}
             autoPlay />
