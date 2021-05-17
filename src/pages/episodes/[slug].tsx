@@ -5,6 +5,7 @@ import { format, parseISO } from 'date-fns';
 import { convertDurationToTimeString } from '../../utils/convertDuration';
 import styles from '../episodes/episode.module.scss'
 import Image from 'next/image'
+import Head from 'next/head'
 import Link from 'next/link'
 import { usePlayer } from '../../contexts/PlayerContext';
 
@@ -31,6 +32,9 @@ export default function Episode({ episode }: EpisodeProps) {
 
   return (
     <div className={styles.main}>
+      <Head>
+        <title>{episode.title} | Podcastr</title>
+      </Head>
       <div className={styles.episode}>
         <div className={styles.thumbnailContainer}>
           <Link href="/">
