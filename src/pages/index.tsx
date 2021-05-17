@@ -80,8 +80,8 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
         <table cellSpacing={0}>
           <thead>
             <th></th>
-            <th>Podcast</th>
-            <th>Integrantes</th>
+            <th>Título</th>
+            <th>Campeão</th>
             <th>Data</th>
             <th>Duração</th>
             <th></th>

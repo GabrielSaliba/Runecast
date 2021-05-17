@@ -15,6 +15,7 @@ type Episode = {
   members: string;
   published_at: string;
   thumbnail: string;
+  banner: string;
   duration: number;
   durationAsString: string;
   url: string;
@@ -44,8 +45,9 @@ export default function Episode({ episode }: EpisodeProps) {
           </Link>
           <Image
             width={700}
-            height={160}
-            src={episode.thumbnail}
+            height={250}
+            src={episode?.banner ?? episode.thumbnail}
+            objectPosition={'50% 20%'}
             objectFit="cover"
           />
           <button type="button" onClick={() => play(episode)}>
@@ -84,6 +86,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     id: data.id,
     title: data.title,
     thumbnail: data.thumbnail,
+    banner: data.banner,
     members: data.members,
     publishedAt: format(parseISO(data.published_at), 'd MMM yy', { locale: ptBR }),
     duration: Number(data.file.duration),
