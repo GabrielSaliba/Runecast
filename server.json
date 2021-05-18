@@ -57,55 +57,55 @@
       }
     },
     {
-      "id": "entrevista-jose-valim-criador-do-elixir",      
-      "title": "Faladev #26 | Especial: entrevista exclusiva com José Valim, criador da linguagem Elixir",
-      "members": "Diego Fernandes e José Valim",
-      "published_at": "2020-12-04 15:00:00",
-      "banner": "",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/josevalim.jpg",
-      "description": "<p>Nesta edição especial de final de temporada tivemos a oportunidade de ter uma conversa com José Valim, dev brasileiro que criou a linguagem de programação Elixir — utilizada internacionalmente em diversas tecnologias, incluindo Discord e Pinterest.</p><p>O assunto da semana girou em diversos processos envolvidos na criação de uma linguagem nova, que propõe ser uma alternativa eficiente no mercado da tecnologia.</p><p>Além de tudo isso, Valim pôde falar de muito código e sobre a sua jornada e experiência em criar uma comunidade ativa por trás do open source.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original da Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.</p>",
+      "id": "seraphine",      
+      "title": "Seraphine, A Cantora Sonhadora",
+      "members": "Seraphine",
+      "published_at": "2020-10-20",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fseraphine-splash.jpg&resize=:1800",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/seraphine-a-cantora-sonhadora-L1Aw6BHeMoc-xBkn9VYCmgL.300x300.jpg",
+      "description": "<p>Nesta edição especial de final de temporada tivemos a oportunidade de ter uma conversa com José Valim, dev brasileiro que criou a linguagem de programação Elixir — utilizada internacionalmente em diversas tecnologias, incluindo Discord e Pinterest.</p><p>O assunto da semana girou em diversos processos envolvidos na criação de uma linguagem nova, que propõe ser uma alternativa eficiente no mercado da tecnologia.</p><p>Além de tudo isso, Valim pôde falar de muito código e sobre a sua jornada e experiência em criar uma comunidade ativa por trás do open source.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original da Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.Nascida em Piltover e filha de zaunitas, Seraphine é capaz de ouvir a alma das pessoas. O mundo canta para ela, e ela canta em resposta. Esses sons a perturbavam quando era mais jovem, mas hoje ela os usa como inspiração, transformando o caos em uma sinfonia. A cantora se apresenta nas cidades irmãs para lembrar a seus cidadãos que eles não estão sozinhos, que são mais fortes juntos e que, aos olhos dela, o potencial deles é ilimitado.</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/jose-valim.m4a",
-        "type": "audio/x-m4a",
-        "duration": 4396
+        "url": "https://s3.castbox.fm/a1/2d/7e/9e779d476f8c8d2669719357ef.mp3",
+        "type": "audio/x-mp3",
+        "duration": 354
       }
     },
     {
-      "id": "o-que-e-ui-ux",      
-      "title": "Faladev #25 | O que é UX/UI?",
-      "members": "Diego Fernandes, Tiago Luchtenberg e Thainan Librelon",
-      "published_at": "2020-10-30 14:00:00",
-      "banner": "",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/design.jpg",
-      "description": "<p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.</p><p>Nesse episódio, Diego Fernandes se reúne com Thainan Librelon e Tiago Luchtenberg para discutir sobre: Desenvolvedor pode fazer o trabalho do UI/UX, qual impacto? Qual é o momento ideal pra ter pessoas especializadas em UX e UI? E afinal, o que é UI e o que é UX?</p>",
+      "id": "sona",      
+      "title": "Sona, A Mestra das Cordas ",
+      "members": "Sona",
+      "published_at": "2020-09-23",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FSona_0.jpg&resize=:1800",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/sona-a-mestra-das-cordas-SZ7W1MhGV-A-JS5OFifCjng.300x300.jpg",
+      "description": "<p>Sona é um prodígio do etwahl, expressando-se apenas por meio de seus acordes graciosos e árias vibrantes. Seus modos gentis e refinados conquistaram a nobreza demaciana, embora alguns especulem que suas melodias cativantes, na verdade, exalem magia – uma possibilidade perigosa no reino. Silenciosa diante de estranhos, mas facilmente compreendida pelos amigos, Sona dedilha acordes não só para tranquilizar os aliados feridos, mas para derrubar inimigos desavisados.</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/design.m4a",
-        "type": "audio/x-m4a",
-        "duration": 2715
+        "url": "https://s3.castbox.fm/b9/de/cc/8b0ddb41eaaa0023ef0d22acf6.mp3",
+        "type": "audio/x-mp3",
+        "duration": 350
       }
     },
     {
-      "id": "como-virar-lider-desenvolvimento",      
-      "title": "Faladev #24 | Como virar líder de desenvolvimento?",
-      "members": "Diego Fernandes, João Paulo e Cleiton Souza",
-      "published_at": "2020-10-23 14:00:00",
+      "id": "samira",      
+      "title": "Samira, A Rosa do Deserto ",
+      "members": "Samira",
+      "published_at": "2020-09-05",
       "banner": "",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/lider-desenvolvimento.jpg",
-      "description": "<p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev. Nesse episódio, Diego Fernandes se reúne com Cleiton Souza e João Paulo de Magalhães para discutir sobre liderança, considerando aspectos profissionais, técnicos e até mesmo emocionais, o que envolve ser um líder de desenvolvimento? Afinal, o que é um líder de desenvolvimento?</p>",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/samira-a-rosa-do-deserto-HjIzdkTEM2e-z3hSrVg5ZW7.300x300.jpg",
+      "description": "<p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev. Nesse episódio, Diego Fernandes se reúne com Cleiton Souza e João Paulo de Magalhães para discutir sobre liderança, considerando aspectos profissionais, técnicos e até mesmo emocionais, o que envolve ser um líder de desenvolvimento? Afinal, o que é um líder de desenvolvimento?Samira olha a morte nos olhos com uma confiança inabalável, procurando diversão aonde quer que vá. Quando criança, depois que seu lar em Shurima foi destruído, ela encontrou sua verdadeira vocação em Noxus, onde conquistou fama como a guerreira valente e elegante que aceitava missões arriscadas do mais alto calibre. Empunhando pistolas de pólvora e uma espada personalizada, Samira prospera em circunstâncias de vida ou morte, eliminando – com estilo e rapidez – qualquer um que cruze seu caminho.</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/lider-desenvolvimento.m4a",
-        "type": "audio/x-m4a",
-        "duration": 2917
+        "url": "https://s3.castbox.fm/d8/99/39/2478f7435c82ff96337e3690ce.mp3",
+        "type": "audio/x-mp3",
+        "duration": 379
       }
     },
     {
-      "id": "comunidades-e-tecnologia",      
-      "title": "FalaDev #23 | O que comunidades têm a ver com tecnologia?",
-      "members": "Diego Fernandes, Isabela Castilho e João Inácio",
-      "published_at": "2020-10-16 13:00:00",
+      "id": "yone",      
+      "title": "Yone, O Inesquecido ",
+      "members": "Yone",
+      "published_at": "2020-07-27",
       "banner": "",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/comunidade.jpg",
-      "description": "<p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.</p><p>Nesse primeiro episódio da nova temporada, Diego Fernandes se reúne com Isabela Castilho e João Inácio Neto (Biro) para discutir sobre comunidades e o impacto que elas exercem na carreira de devs em busca do próximo nível. Afinal, O que é uma comunidade e o que tem a ver com tecnologia?</p>",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/yone-o-inesquecido-YPXK1L8wjWo-O-lKm7U4ZYR.300x300.jpg",
+      "description": "<p>Em vida, ele era Yone; meio-irmão de Yasuo e um respeitado aluno da escola de espadachins de seu vilarejo. Mas, ao morrer pelas mãos do irmão, ele se viu perseguido por uma entidade maligna do reino espiritual e foi forçado a exterminá-la com sua própria espada. Agora, condenado a usar uma máscara demoníaca com o rosto da entidade, Yone busca incansavelmente essas criaturas para tentar entender o que ele mesmo se tornou.</p>",
       "file": {
         "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/comunidade.m4a",
         "type": "audio/x-m4a",
