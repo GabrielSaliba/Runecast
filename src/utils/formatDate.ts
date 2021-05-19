@@ -8,3 +8,11 @@ export function formatDate(date) {
     return '-'
   }
 }
+
+export function formatFullDate(date) {
+  try {
+    return format(parseISO(date), "dd 'de' MMMM 'de' y", { locale: ptBR })
+  } catch {
+    return '-'
+  }
+}

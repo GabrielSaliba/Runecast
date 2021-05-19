@@ -8,7 +8,7 @@ import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
 import { usePlayer } from '../../contexts/PlayerContext';
-import { formatDate } from '../../utils/formatDate';
+import { formatDate, formatFullDate } from '../../utils/formatDate';
 
 type Episode = {
   id: string;
@@ -89,7 +89,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     thumbnail: data.thumbnail,
     banner: data.banner,
     members: data.members,
-    publishedAt: formatDate(data.published_at),
+    publishedAt: formatFullDate(data.published_at),
     duration: Number(data.file.duration),
     durationAsString: convertDurationToTimeString((data.file.duration)),
     description: data.description,
