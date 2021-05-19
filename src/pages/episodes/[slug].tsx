@@ -8,6 +8,7 @@ import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
 import { usePlayer } from '../../contexts/PlayerContext';
+import { formatDate, formatFullDate } from '../../utils/formatDate';
 
 type Episode = {
   id: string;
@@ -15,6 +16,7 @@ type Episode = {
   members: string;
   published_at: string;
   thumbnail: string;
+  banner: string;
   duration: number;
   durationAsString: string;
   url: string;
@@ -33,7 +35,7 @@ export default function Episode({ episode }: EpisodeProps) {
   return (
     <div className={styles.main}>
       <Head>
-        <title>{episode.title} | Podcastr</title>
+        <title>{episode.title} | Runecast</title>
       </Head>
       <div className={styles.episode}>
         <div className={styles.thumbnailContainer}>
@@ -44,8 +46,9 @@ export default function Episode({ episode }: EpisodeProps) {
           </Link>
           <Image
             width={700}
-            height={160}
-            src={episode.thumbnail}
+            height={250}
+            src={episode?.banner ?? episode.thumbnail}
+            objectPosition={'50% 20%'}
             objectFit="cover"
           />
           <button type="button" onClick={() => play(episode)}>
@@ -84,8 +87,9 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     id: data.id,
     title: data.title,
     thumbnail: data.thumbnail,
+    banner: data.banner,
     members: data.members,
-    publishedAt: format(parseISO(data.published_at), 'd MMM yy', { locale: ptBR }),
+    publishedAt: formatFullDate(data.published_at),
     duration: Number(data.file.duration),
     durationAsString: convertDurationToTimeString((data.file.duration)),
     description: data.description,

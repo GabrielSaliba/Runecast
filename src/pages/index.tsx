@@ -9,6 +9,7 @@ import { convertDurationToTimeString } from '../utils/convertDuration';
 
 import styles from './home.module.scss';
 import { usePlayer } from '../contexts/PlayerContext';
+import { formatDate } from '../utils/formatDate';
 
 type Episode = {
   id: string;
@@ -20,6 +21,7 @@ type Episode = {
   durationAsString: string;
   url: string;
   publishedAt: string;
+  featured: string
 }
 
 type HomeProps = {
@@ -29,15 +31,52 @@ type HomeProps = {
 
 export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 
-  const { playList } = usePlayer();
+  const { playList, play } = usePlayer();
 
   const episodeList = [...latestEpisodes, ...allEpisodes];
 
   return (
     <div className={styles.homepage}>
       <Head>
-        <title>Home | Podcastr</title>
+        <title>Home | Runecast</title>
       </Head>
+
+      <section className={styles.featuredEpisodes}>
+        <h1>Destaques</h1>
+
+        <ul>
+          {allEpisodes.map((episode, index) => {
+            if (episode.featured == 'true') {
+              return (
+                <li key={episode.id}>
+                  <div style={{ width: 100 }}>
+                    <Image
+                      width={192}
+                      height={192}
+                      src={episode.thumbnail}
+                      alt={episode.title}
+                      objectFit="cover"
+                    />
+                  </div>
+
+                  <div className={styles.episodeDetails}>
+                    <Link href={`/episodes/${episode.id}`}>
+                      <a>{episode.title}</a>
+                    </Link>
+                    <p>{episode.members}</p>
+                    <span>{episode.publishedAt}</span>
+                    <span>{episode.durationAsString}</span>
+                  </div>
+
+                  <button type="button" onClick={() => play(episode)}>
+                    <img src="/play-green.svg" alt="Tocar episódio" />
+                  </button>
+                </li>
+              )
+            }
+          })}
+        </ul>
+      </section>
 
       <section className={styles.latestEpisodes}>
         <h2>Últimos lançamentos</h2>
@@ -80,8 +119,8 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
         <table cellSpacing={0}>
           <thead>
             <th></th>
-            <th>Podcast</th>
-            <th>Integrantes</th>
+            <th>Título</th>
+            <th>Campeão</th>
             <th>Data</th>
             <th>Duração</th>
             <th></th>
@@ -128,7 +167,6 @@ export const getStaticProps: GetStaticProps = async () => {
   // ordem: decrescente
   const { data } = await api.get('episodes', {
     params: {
-      _limit: 12,
       _sort: 'published_at',
       _order: 'desc'
     }
@@ -140,10 +178,11 @@ export const getStaticProps: GetStaticProps = async () => {
       title: episode.title,
       thumbnail: episode.thumbnail,
       members: episode.members,
-      publishedAt: format(parseISO(episode.published_at), 'd MMM yy', { locale: ptBR }),
+      publishedAt: formatDate(episode.published_at),
       duration: Number(episode.file.duration),
       durationAsString: convertDurationToTimeString((episode.file.duration)),
       url: episode.file.url,
+      featured: episode.featured
     };
   })
 
