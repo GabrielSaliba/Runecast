@@ -167,7 +167,6 @@ export const getStaticProps: GetStaticProps = async () => {
   // ordem: decrescente
   const { data } = await api.get('episodes', {
     params: {
-      _limit: 12,
       _sort: 'published_at',
       _order: 'desc'
     }

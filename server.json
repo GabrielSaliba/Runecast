@@ -1,12 +1,12 @@
 {
   "episodes": [
     {
-      "id": "ela-conto-do-viego",      
+      "id": "ela-conto-do-viego",
       "title": "Ela",
       "members": "Viego",
       "published_at": "2021-03-08",
       "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/ela-conto-do-viego-nMJkf103HK9-nl7Cf6J9XYa.300x300.jpg",
-      "banner":"https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fviego-splash.jpg",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fviego-splash.jpg",
       "description": "<p>Sempre que Viego pensava no rosto dela, havia algo diferente. Às vezes, os olhos estavam separados demais; outras vezes, juntos demais. Ou então as bochechas estavam muito finas ou muito largas. Em certas ocasiões, as mãos dela não eram marcadas pelos calos de costureira; em outras, eram grossas e nodosas por causa dos longos dias manejando tesouras e agulhas. Em certos dias, ela usava um vestido, em outros, apenas um avental de trabalho, e, em mais alguns, não vestia nada. Nunca era a mesma, mas era a mesma mulher; nunca estava ali, mas continuava presente.</p>",
       "featured": "false",
       "file": {
@@ -16,7 +16,7 @@
       }
     },
     {
-      "id": "viego",      
+      "id": "viego",
       "title": "Viego, O Rei Destruído",
       "members": "Viego",
       "published_at": "2021-01-11",
@@ -31,7 +31,7 @@
       }
     },
     {
-      "id": "rell",      
+      "id": "rell",
       "title": "Rell, A Dama de Ferro ",
       "members": "Rell",
       "published_at": "2020-12-28",
@@ -46,7 +46,7 @@
       }
     },
     {
-      "id": "proclamacao-conselho-trifarix",      
+      "id": "proclamacao-conselho-trifarix",
       "title": "Proclamação do Conselho Trifarix",
       "members": "Darius e Swain",
       "published_at": "2020-11-19",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "seraphine",      
+      "id": "seraphine",
       "title": "Seraphine, A Cantora Sonhadora",
       "members": "Seraphine",
       "published_at": "2020-10-20",
@@ -76,14 +76,14 @@
       }
     },
     {
-      "id": "sona",      
+      "id": "sona",
       "title": "Sona, A Mestra das Cordas ",
       "members": "Sona",
       "published_at": "2020-09-23",
       "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FSona_0.jpg&resize=:1800",
       "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/sona-a-mestra-das-cordas-SZ7W1MhGV-A-JS5OFifCjng.300x300.jpg",
       "description": "<p>Sona é um prodígio do etwahl, expressando-se apenas por meio de seus acordes graciosos e árias vibrantes. Seus modos gentis e refinados conquistaram a nobreza demaciana, embora alguns especulem que suas melodias cativantes, na verdade, exalem magia – uma possibilidade perigosa no reino. Silenciosa diante de estranhos, mas facilmente compreendida pelos amigos, Sona dedilha acordes não só para tranquilizar os aliados feridos, mas para derrubar inimigos desavisados.</p>",
-      "featured": "true",
+      "featured": "false",
       "file": {
         "url": "https://s3.castbox.fm/b9/de/cc/8b0ddb41eaaa0023ef0d22acf6.mp3",
         "type": "audio/x-mp3",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "samira",      
+      "id": "samira",
       "title": "Samira, A Rosa do Deserto ",
       "members": "Samira",
       "published_at": "2020-09-05",
@@ -106,7 +106,7 @@
       }
     },
     {
-      "id": "yone",      
+      "id": "yone",
       "title": "Yone, O Inesquecido ",
       "members": "Yone",
       "published_at": "2020-07-27",
@@ -121,7 +121,7 @@
       }
     },
     {
-      "id": "yasuo",      
+      "id": "yasuo",
       "title": "Yasuo, O Imperdoável",
       "members": "Yasuo",
       "published_at": "2020-07-09",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "id": "lillia",      
+      "id": "lillia",
       "title": "Lillia, O Florir Receoso",
       "members": "Lillia",
       "published_at": "2020-07-09",
@@ -148,6 +148,21 @@
         "url": "https://s3.castbox.fm/a2/01/3b/6e19834f65a731f0b37fe2d685.mp3",
         "type": "audio/x-mp3",
         "duration": 350
+      }
+    },
+    {
+      "id": "lenda-observadores-congelados",
+      "title": "A Lenda dos Observadores Congelados",
+      "members": "Lissandra, Volibear, Anivia, Nunu e Willump",
+      "published_at": "2020-06-13",
+      "banner": "https://universe-meeps.leagueoflegends.com/v1/assets/images/legend-of-the-frozen-watchers-splash.jpg",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/a-lenda-dos-observadores-zDuZvcdXLp7-bW1RU_DjcOp.300x300.jpg",
+      "description": "<p>De todos os contos da velha Freljord que chegaram até a era moderna, há um, e apenas um, que pode gelar o sangue até do mais forte dos Glacinatas. Os Praeglacius não o contam. A maioria deles nem o conhece por inteiro. Por decreto de Lissandra, a própria Bruxa Gélida, perpetuar esta lenda proibida é uma heresia contra a verdadeira fé, e a pena é morte para qualquer um que ousar contá-la em voz alta. </p>",
+      "featured": "true",
+      "file": {
+        "url": "https://s3.castbox.fm/82/1b/82/48782348c8a22992ef6b027810.mp3",
+        "type": "audio/x-mp3",
+        "duration": 282
       }
     }
   ]

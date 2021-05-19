@@ -134,7 +134,7 @@
 
     li {
       background: var(--white);
-      border: 7px solid var(--gray-100);
+      border: 7px solid #d9b1ff;
       padding: 1.25rem;
       border-radius: 1.5rem;
       position: relative;
@@ -170,9 +170,6 @@
           font-size: 1.25rem;
           margin-top: 0.5rem;
           max-width: 70%;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
         }
 
         span {
@@ -215,8 +212,8 @@
         transition: filter 0.3s;
 
         img {
-          width: 1.8rem;
-          height: 1.8rem;
+          width: 2rem;
+          height: 2rem;
         }
 
         &:hover {
