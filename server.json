@@ -7,7 +7,7 @@
       "published_at": "2021-03-08",
       "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/ela-conto-do-viego-nMJkf103HK9-nl7Cf6J9XYa.300x300.jpg",
       "banner":"https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fviego-splash.jpg",
-      "description": "<p>Sempre que Viego pensava no rosto dela, havia algo diferente.</p>",
+      "description": "<p>Sempre que Viego pensava no rosto dela, havia algo diferente. Às vezes, os olhos estavam separados demais; outras vezes, juntos demais. Ou então as bochechas estavam muito finas ou muito largas. Em certas ocasiões, as mãos dela não eram marcadas pelos calos de costureira; em outras, eram grossas e nodosas por causa dos longos dias manejando tesouras e agulhas. Em certos dias, ela usava um vestido, em outros, apenas um avental de trabalho, e, em mais alguns, não vestia nada. Nunca era a mesma, mas era a mesma mulher; nunca estava ali, mas continuava presente.</p>",
       "file": {
         "url": "https://s3.castbox.fm/b7/f9/90/b3891b430f9180525a0a8f9cc5.mp3",
         "type": "audio/x-mp3",
@@ -89,7 +89,7 @@
       "title": "Samira, A Rosa do Deserto ",
       "members": "Samira",
       "published_at": "2020-09-05",
-      "banner": "",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FSamira_0.jpg&resize=:1800",
       "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/samira-a-rosa-do-deserto-HjIzdkTEM2e-z3hSrVg5ZW7.300x300.jpg",
       "description": "<p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev. Nesse episódio, Diego Fernandes se reúne com Cleiton Souza e João Paulo de Magalhães para discutir sobre liderança, considerando aspectos profissionais, técnicos e até mesmo emocionais, o que envolve ser um líder de desenvolvimento? Afinal, o que é um líder de desenvolvimento?Samira olha a morte nos olhos com uma confiança inabalável, procurando diversão aonde quer que vá. Quando criança, depois que seu lar em Shurima foi destruído, ela encontrou sua verdadeira vocação em Noxus, onde conquistou fama como a guerreira valente e elegante que aceitava missões arriscadas do mais alto calibre. Empunhando pistolas de pólvora e uma espada personalizada, Samira prospera em circunstâncias de vida ou morte, eliminando – com estilo e rapidez – qualquer um que cruze seu caminho.</p>",
       "file": {
@@ -103,41 +103,41 @@
       "title": "Yone, O Inesquecido ",
       "members": "Yone",
       "published_at": "2020-07-27",
-      "banner": "",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FYone_0.jpg&resize=:1800",
       "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/yone-o-inesquecido-YPXK1L8wjWo-O-lKm7U4ZYR.300x300.jpg",
       "description": "<p>Em vida, ele era Yone; meio-irmão de Yasuo e um respeitado aluno da escola de espadachins de seu vilarejo. Mas, ao morrer pelas mãos do irmão, ele se viu perseguido por uma entidade maligna do reino espiritual e foi forçado a exterminá-la com sua própria espada. Agora, condenado a usar uma máscara demoníaca com o rosto da entidade, Yone busca incansavelmente essas criaturas para tentar entender o que ele mesmo se tornou.</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/comunidade.m4a",
-        "type": "audio/x-m4a",
-        "duration": 2677
+        "url": "https://s3.castbox.fm/59/b7/19/935c814e64b95320c8f7209b26.mp3",
+        "type": "audio/x-mp3",
+        "duration": 357
       }
     },
     {
-      "id": "typescript-vale-a-pena",      
-      "title": "FalaDev #22 - TypeScript vale a pena? JavaScript perde sentido?",
-      "members": "Diego Fernandes, Mayk Brito e João Pedro",
-      "published_at": "2020-05-04 14:49:35",
-      "banner": "",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/typescript.jpg",
-      "description": "<p>Três programadores conversam sobre TypeScript.</p><p>Vamos discutir a usabilidade e as previsões da linguagem no cenário da programação.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.</p>",
+      "id": "yasuo",      
+      "title": "Yasuo, O Imperdoável",
+      "members": "Yasuo",
+      "published_at": "2020-07-09",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FYasuo_0.jpg&resize=:1800",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/yasuo-o-imperdo%C3%A1vel-LOYtWe5Sncf-5qYMfRpAl79.300x300.jpg",
+      "description": "<p>Yasuo, um ioniano extremamente determinado, é também um ágil espadachim que usa o próprio ar como arma para enfrentar seus inimigos. Quando jovem, ele teve seu orgulho ferido ao ser acusado injustamente do assassinato de seu mestre — sem conseguir provar sua inocência, ele foi forçado a matar o próprio irmão para se defender. Até hoje, mesmo depois do verdadeiro assassino do seu mestre ter sido revelado, Yasuo ainda não consegue se perdoar e vaga por sua terra natal com apenas o vento para guiar sua espada.</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/typescript.m4a",
-        "type": "audio/x-m4a",
-        "duration": 1772
+        "url": "https://s3.castbox.fm/63/12/25/3c42ea442081d832452f17c498.mp3",
+        "type": "audio/x-mp3",
+        "duration": 390
       }
     },
     {
-      "id": "estrategias-de-autenticacao-jwt-oauth",      
-      "title": "FalaDev #21 - Estratégias de autenticação, JWT, OAuth, qual usar?",
-      "members": "Diego Fernandes, Higo Ribeiro e Guilherme Pellizzetti",
-      "published_at": "2020-04-09 20:00:00",
-      "banner": "",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/autenticacao.jpg",
-      "description": "<p>Três programadores conversam sobre estratégia de autenticação.</p><p>Vamos discutir quais aspectos você deve considerar na hora de fazer a sua escolha.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.</p>",
+      "id": "lillia",      
+      "title": "Lillia, O Florir Receoso",
+      "members": "Lillia",
+      "published_at": "2020-07-09",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FLillia_0.jpg&resize=:1800",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/lillia-o-florir-receoso-9dLvtF7DyIf-C0Wl78-mFid.300x300.jpg",
+      "description": "<p>Muito tímida, Lillia, a faunesa feérica, percorre saltitante as florestas de Ionia. Sempre escondida a pouca distância dos humanos — cujas misteriosas naturezas lhe causam fascínio e, ao mesmo tempo, receio — Lillia espera descobrir por que os sonhos deles não chegam mais à Árvore dos Sonhos. Agora, ela percorre Ionia com um galho mágico nas mãos em busca dos sonhos não realizados das pessoas. Somente assim, a própria Lillia poderá florescer e ajudar as pessoas a desalinharem seus medos e encontrarem seu brilho interior. IIIP!</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/autenticacao.m4a",
-        "type": "audio/x-m4a",
-        "duration": 1463
+        "url": "https://s3.castbox.fm/a2/01/3b/6e19834f65a731f0b37fe2d685.mp3",
+        "type": "audio/x-mp3",
+        "duration": 350
       }
     }
   ]
