@@ -3,6 +3,6 @@
     "json-server": "^0.16.3"
   },
   "scripts": {
-    "start": "node server.ts"
+    "start": "node server.js"
   }
 }
