@@ -1,14 +1,11 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { api } from '../../services/api';
-import ptBR from 'date-fns/locale/pt-BR'
-import { format, parseISO } from 'date-fns';
-import { convertDurationToTimeString } from '../../utils/convertDuration';
+import { convertDurationToTimeString, convertMinuteToTimeString } from '../../utils/convertDuration';
 import styles from '../episodes/episode.module.scss'
 import Image from 'next/image'
 import Head from 'next/head'
-import Link from 'next/link'
 import { usePlayer } from '../../contexts/PlayerContext';
-import { formatDate, formatFullDate } from '../../utils/formatDate';
+import { formatFullDate } from '../../utils/formatDate';
 
 type Episode = {
   id: string;
@@ -39,11 +36,6 @@ export default function Episode({ episode }: EpisodeProps) {
       </Head>
       <div className={styles.episode}>
         <div className={styles.thumbnailContainer}>
-          <Link href="/">
-            <button type="button">
-              <img src="/arrow-left.svg" alt="Voltar" />
-            </button>
-          </Link>
           <Image
             width={700}
             height={250}
@@ -54,6 +46,7 @@ export default function Episode({ episode }: EpisodeProps) {
           <button type="button" onClick={() => play(episode)}>
             <img src="/play.svg" alt="Tocar episódio" />
           </button>
+          <h3>{convertMinuteToTimeString(episode.duration)} min</h3>
         </div>
 
         <header>

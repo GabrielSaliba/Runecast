@@ -164,6 +164,36 @@
         "type": "audio/x-mp3",
         "duration": 282
       }
+    },
+    {
+      "id": "entre-a-luz-e-a-sombra",
+      "title": "Entre a Luz e a Sombra - Conto do Kennen",
+      "members": "Kennen",
+      "published_at": "2020-06-13",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FKennen_0.jpg&resize=:1800",
+      "thumbnail": "https://production.listennotes.com/podcasts/hist%C3%B3rias-de/entre-a-luz-e-a-sombra-conto-QyXm9A7rP6b-w_TjO3XlZ-o.1400x1400.jpg",
+      "description": "<p>Um pedido urgente veio de uma filial dos acólitos ao sul, em Ionia. O templo deles foi corrompido por um espírito maligno desconhecido. Eles não conseguiam repeli-lo, e por isso pediam a ajuda do triunvirato Kinkou.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/da/b8/5e/c7a088420db9057c37ae49656e.mp3",
+        "type": "audio/x-mp3",
+        "duration": 709
+      }
+    },
+    {
+      "id": "volibear",
+      "title": "Volibear, A Tempestade Implacável",
+      "members": "Volibear",
+      "published_at": "2020-05-09",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fvolibear-splash.jpg&resize=:1800",
+      "thumbnail": "https://production.listennotes.com/podcasts/hist%C3%B3rias-de/volibear-a-tempestade--F9UZX0Q8o1-wTPDHmlesS1.300x300.jpg",
+      "description": "<p>Para aqueles que ainda o adoram, Volibear é a forma manifestada da tempestade. Destrutivo, selvagem e implacavelmente obstinado, ele já existia antes mesmo que os mortais andassem sobre a tundra de Freljord, protegendo as terras que ele e seus irmãos semideuses criaram. Com um ódio profundo pela civilização e a vulnerabilidade que ela carrega, Volibear luta para recuperar os velhos costumes de quando a terra era selvagem e o sangue jorrava livremente. Ele enfrenta todos aqueles que ousam entrar em seu caminho com dentes, garras e a dominação do trovão.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/d3/ca/98/658d564699a423c164f4bd5c1b.mp3",
+        "type": "audio/x-mp3",
+        "duration": 366
+      }
     }
   ]
 }
