@@ -9,3 +9,7 @@ export function convertDurationToTimeString(duration: number): string {
     
   return timeString;
 }
+
+export function convertMinuteToTimeString(duration: number) {
+  return Math.floor((duration % 3600) / 60).toString();
+}

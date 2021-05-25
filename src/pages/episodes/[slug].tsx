@@ -1,13 +1,11 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { api } from '../../services/api';
-import ptBR from 'date-fns/locale/pt-BR'
-import { format, parseISO } from 'date-fns';
-import { convertDurationToTimeString } from '../../utils/convertDuration';
+import { convertDurationToTimeString, convertMinuteToTimeString } from '../../utils/convertDuration';
 import styles from '../episodes/episode.module.scss'
 import Image from 'next/image'
 import Head from 'next/head'
-import Link from 'next/link'
 import { usePlayer } from '../../contexts/PlayerContext';
+import { formatFullDate } from '../../utils/formatDate';
 
 type Episode = {
   id: string;
@@ -15,6 +13,7 @@ type Episode = {
   members: string;
   published_at: string;
   thumbnail: string;
+  banner: string;
   duration: number;
   durationAsString: string;
   url: string;
@@ -33,24 +32,21 @@ export default function Episode({ episode }: EpisodeProps) {
   return (
     <div className={styles.main}>
       <Head>
-        <title>{episode.title} | Podcastr</title>
+        <title>{episode.title} | Runecast</title>
       </Head>
       <div className={styles.episode}>
         <div className={styles.thumbnailContainer}>
-          <Link href="/">
-            <button type="button">
-              <img src="/arrow-left.svg" alt="Voltar" />
-            </button>
-          </Link>
           <Image
             width={700}
-            height={160}
-            src={episode.thumbnail}
+            height={250}
+            src={episode?.banner ?? episode.thumbnail}
+            objectPosition={'50% 20%'}
             objectFit="cover"
           />
           <button type="button" onClick={() => play(episode)}>
             <img src="/play.svg" alt="Tocar episódio" />
           </button>
+          <h3>{convertMinuteToTimeString(episode.duration)} min</h3>
         </div>
 
         <header>
@@ -84,8 +80,9 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     id: data.id,
     title: data.title,
     thumbnail: data.thumbnail,
+    banner: data.banner,
     members: data.members,
-    publishedAt: format(parseISO(data.published_at), 'd MMM yy', { locale: ptBR }),
+    publishedAt: formatFullDate(data.published_at),
     duration: Number(data.file.duration),
     durationAsString: convertDurationToTimeString((data.file.duration)),
     description: data.description,

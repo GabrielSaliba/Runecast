@@ -1,0 +1,199 @@
+{
+  "episodes": [
+    {
+      "id": "ela-conto-do-viego",
+      "title": "Ela",
+      "members": "Viego",
+      "published_at": "2021-03-08",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/ela-conto-do-viego-nMJkf103HK9-nl7Cf6J9XYa.300x300.jpg",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fviego-splash.jpg",
+      "description": "<p>Sempre que Viego pensava no rosto dela, havia algo diferente. Às vezes, os olhos estavam separados demais; outras vezes, juntos demais. Ou então as bochechas estavam muito finas ou muito largas. Em certas ocasiões, as mãos dela não eram marcadas pelos calos de costureira; em outras, eram grossas e nodosas por causa dos longos dias manejando tesouras e agulhas. Em certos dias, ela usava um vestido, em outros, apenas um avental de trabalho, e, em mais alguns, não vestia nada. Nunca era a mesma, mas era a mesma mulher; nunca estava ali, mas continuava presente.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/b7/f9/90/b3891b430f9180525a0a8f9cc5.mp3",
+        "type": "audio/x-mp3",
+        "duration": 494
+      }
+    },
+    {
+      "id": "viego",
+      "title": "Viego, O Rei Destruído",
+      "members": "Viego",
+      "published_at": "2021-01-11",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/viego-o-rei-destru%C3%ADdo-2hymCELYsX6-lSHb0JTXzFN.300x300.jpg",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fviego-splash.jpg",
+      "description": "<p>Outrora regente de um reino perdido, Viego morreu há mais de um milênio, quando uma tentativa de trazer sua esposa de volta à vida culminou em uma catástrofe mágica conhecida como \"a Ruína\". Transformado em um poderoso espectro morto-vivo, e sempre sendo torturado pela paixão obsessiva que sente por sua rainha morta há séculos, Viego agora é conhecido como o Rei Destruído. Hoje, ele controla os Tormentos enquanto assola Runeterra em busca de qualquer coisa que possa trazê-la de volta, destruindo tudo que estiver em seu caminho conforme a Névoa Negra emana de seu cruel coração partido.</p>\n",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/e4/7b/37/4615f141bbbfed81b4c8e9f2e5.mp3",
+        "type": "audio/x-mp3",
+        "duration": 312
+      }
+    },
+    {
+      "id": "rell",
+      "title": "Rell, A Dama de Ferro ",
+      "members": "Rell",
+      "published_at": "2020-12-28",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/rell-a-dama-de-ferro-8Uk9gAt_pb7-MkQv63SYxmt.300x300.jpg",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Frell-splash.jpg&resize=:1800",
+      "description": "<p>Produto de um experimento brutal nas mãos da Rosa Negra, Rell é uma arma humana rebelde que está determinada a destruir Noxus. Sua infância foi repleta de sofrimento e horror; a jovem teve que suportar procedimentos indescritíveis para aperfeiçoar e fortalecer seu controle mágico do metal – até que, um dia, empreendeu uma fuga violenta, matando muitos de seus captores no processo. Agora, Rell é tida como criminosa e ataca qualquer soldado noxiano que apareça diante dela. Ao mesmo tempo, procura sobreviventes de sua antiga \"academia\", defendendo os fracos enquanto despacha impiedosamente seus antigos instrutores para a morte.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/e4/0f/62/87ad9b40b8b3b9f6f75f31b9bf.mp3",
+        "type": "audio/x-mp3",
+        "duration": 366
+      }
+    },
+    {
+      "id": "proclamacao-conselho-trifarix",
+      "title": "Proclamação do Conselho Trifarix",
+      "members": "Darius e Swain",
+      "published_at": "2020-11-19",
+      "banner": "https://universe-meeps.leagueoflegends.com/v1/assets/images/proclamation-splash.jpg",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/proclama%C3%A7%C3%A3o-do-conselho-SKz0nTwxHoB-uWvyzONVS-U.300x300.jpg",
+      "description": "<p>Cidadãos de Noxus, trago notícias da capital! É tempo de comemorar! A Mão de Noxus retornou e demonstrou apoio ao nosso novo Grande General! Acompanhados da nobreza noxiana, ambos abrem caminho para que uma nova era comece em nosso glorioso império!</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/0a/de/d1/a5fa664f078c9e259249552019.mp3",
+        "type": "audio/x-mp3",
+        "duration": 435
+      }
+    },
+    {
+      "id": "seraphine",
+      "title": "Seraphine, A Cantora Sonhadora",
+      "members": "Seraphine",
+      "published_at": "2020-10-20",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fseraphine-splash.jpg&resize=:1800",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/seraphine-a-cantora-sonhadora-L1Aw6BHeMoc-xBkn9VYCmgL.300x300.jpg",
+      "description": "<p>Nesta edição especial de final de temporada tivemos a oportunidade de ter uma conversa com José Valim, dev brasileiro que criou a linguagem de programação Elixir — utilizada internacionalmente em diversas tecnologias, incluindo Discord e Pinterest.</p><p>O assunto da semana girou em diversos processos envolvidos na criação de uma linguagem nova, que propõe ser uma alternativa eficiente no mercado da tecnologia.</p><p>Além de tudo isso, Valim pôde falar de muito código e sobre a sua jornada e experiência em criar uma comunidade ativa por trás do open source.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original da Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.Nascida em Piltover e filha de zaunitas, Seraphine é capaz de ouvir a alma das pessoas. O mundo canta para ela, e ela canta em resposta. Esses sons a perturbavam quando era mais jovem, mas hoje ela os usa como inspiração, transformando o caos em uma sinfonia. A cantora se apresenta nas cidades irmãs para lembrar a seus cidadãos que eles não estão sozinhos, que são mais fortes juntos e que, aos olhos dela, o potencial deles é ilimitado.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/a1/2d/7e/9e779d476f8c8d2669719357ef.mp3",
+        "type": "audio/x-mp3",
+        "duration": 354
+      }
+    },
+    {
+      "id": "sona",
+      "title": "Sona, A Mestra das Cordas ",
+      "members": "Sona",
+      "published_at": "2020-09-23",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FSona_0.jpg&resize=:1800",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/sona-a-mestra-das-cordas-SZ7W1MhGV-A-JS5OFifCjng.300x300.jpg",
+      "description": "<p>Sona é um prodígio do etwahl, expressando-se apenas por meio de seus acordes graciosos e árias vibrantes. Seus modos gentis e refinados conquistaram a nobreza demaciana, embora alguns especulem que suas melodias cativantes, na verdade, exalem magia – uma possibilidade perigosa no reino. Silenciosa diante de estranhos, mas facilmente compreendida pelos amigos, Sona dedilha acordes não só para tranquilizar os aliados feridos, mas para derrubar inimigos desavisados.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/b9/de/cc/8b0ddb41eaaa0023ef0d22acf6.mp3",
+        "type": "audio/x-mp3",
+        "duration": 350
+      }
+    },
+    {
+      "id": "samira",
+      "title": "Samira, A Rosa do Deserto ",
+      "members": "Samira",
+      "published_at": "2020-09-05",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FSamira_0.jpg&resize=:1800",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/samira-a-rosa-do-deserto-HjIzdkTEM2e-z3hSrVg5ZW7.300x300.jpg",
+      "description": "<p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev. Nesse episódio, Diego Fernandes se reúne com Cleiton Souza e João Paulo de Magalhães para discutir sobre liderança, considerando aspectos profissionais, técnicos e até mesmo emocionais, o que envolve ser um líder de desenvolvimento? Afinal, o que é um líder de desenvolvimento?Samira olha a morte nos olhos com uma confiança inabalável, procurando diversão aonde quer que vá. Quando criança, depois que seu lar em Shurima foi destruído, ela encontrou sua verdadeira vocação em Noxus, onde conquistou fama como a guerreira valente e elegante que aceitava missões arriscadas do mais alto calibre. Empunhando pistolas de pólvora e uma espada personalizada, Samira prospera em circunstâncias de vida ou morte, eliminando – com estilo e rapidez – qualquer um que cruze seu caminho.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/d8/99/39/2478f7435c82ff96337e3690ce.mp3",
+        "type": "audio/x-mp3",
+        "duration": 379
+      }
+    },
+    {
+      "id": "yone",
+      "title": "Yone, O Inesquecido ",
+      "members": "Yone",
+      "published_at": "2020-07-27",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FYone_0.jpg&resize=:1800",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/yone-o-inesquecido-YPXK1L8wjWo-O-lKm7U4ZYR.300x300.jpg",
+      "description": "<p>Em vida, ele era Yone; meio-irmão de Yasuo e um respeitado aluno da escola de espadachins de seu vilarejo. Mas, ao morrer pelas mãos do irmão, ele se viu perseguido por uma entidade maligna do reino espiritual e foi forçado a exterminá-la com sua própria espada. Agora, condenado a usar uma máscara demoníaca com o rosto da entidade, Yone busca incansavelmente essas criaturas para tentar entender o que ele mesmo se tornou.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/59/b7/19/935c814e64b95320c8f7209b26.mp3",
+        "type": "audio/x-mp3",
+        "duration": 357
+      }
+    },
+    {
+      "id": "yasuo",
+      "title": "Yasuo, O Imperdoável",
+      "members": "Yasuo",
+      "published_at": "2020-07-09",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FYasuo_0.jpg&resize=:1800",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/yasuo-o-imperdo%C3%A1vel-LOYtWe5Sncf-5qYMfRpAl79.300x300.jpg",
+      "description": "<p>Yasuo, um ioniano extremamente determinado, é também um ágil espadachim que usa o próprio ar como arma para enfrentar seus inimigos. Quando jovem, ele teve seu orgulho ferido ao ser acusado injustamente do assassinato de seu mestre — sem conseguir provar sua inocência, ele foi forçado a matar o próprio irmão para se defender. Até hoje, mesmo depois do verdadeiro assassino do seu mestre ter sido revelado, Yasuo ainda não consegue se perdoar e vaga por sua terra natal com apenas o vento para guiar sua espada.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/63/12/25/3c42ea442081d832452f17c498.mp3",
+        "type": "audio/x-mp3",
+        "duration": 390
+      }
+    },
+    {
+      "id": "lillia",
+      "title": "Lillia, O Florir Receoso",
+      "members": "Lillia",
+      "published_at": "2020-07-09",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FLillia_0.jpg&resize=:1800",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/lillia-o-florir-receoso-9dLvtF7DyIf-C0Wl78-mFid.300x300.jpg",
+      "description": "<p>Muito tímida, Lillia, a faunesa feérica, percorre saltitante as florestas de Ionia. Sempre escondida a pouca distância dos humanos — cujas misteriosas naturezas lhe causam fascínio e, ao mesmo tempo, receio — Lillia espera descobrir por que os sonhos deles não chegam mais à Árvore dos Sonhos. Agora, ela percorre Ionia com um galho mágico nas mãos em busca dos sonhos não realizados das pessoas. Somente assim, a própria Lillia poderá florescer e ajudar as pessoas a desalinharem seus medos e encontrarem seu brilho interior. IIIP!</p>",
+      "featured": "true",
+      "file": {
+        "url": "https://s3.castbox.fm/a2/01/3b/6e19834f65a731f0b37fe2d685.mp3",
+        "type": "audio/x-mp3",
+        "duration": 350
+      }
+    },
+    {
+      "id": "lenda-observadores-congelados",
+      "title": "A Lenda dos Observadores Congelados",
+      "members": "Lissandra, Volibear, Anivia, Nunu e Willump",
+      "published_at": "2020-06-13",
+      "banner": "https://universe-meeps.leagueoflegends.com/v1/assets/images/legend-of-the-frozen-watchers-splash.jpg",
+      "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/a-lenda-dos-observadores-zDuZvcdXLp7-bW1RU_DjcOp.300x300.jpg",
+      "description": "<p>De todos os contos da velha Freljord que chegaram até a era moderna, há um, e apenas um, que pode gelar o sangue até do mais forte dos Glacinatas. Os Praeglacius não o contam. A maioria deles nem o conhece por inteiro. Por decreto de Lissandra, a própria Bruxa Gélida, perpetuar esta lenda proibida é uma heresia contra a verdadeira fé, e a pena é morte para qualquer um que ousar contá-la em voz alta. </p>",
+      "featured": "true",
+      "file": {
+        "url": "https://s3.castbox.fm/82/1b/82/48782348c8a22992ef6b027810.mp3",
+        "type": "audio/x-mp3",
+        "duration": 282
+      }
+    },
+    {
+      "id": "entre-a-luz-e-a-sombra",
+      "title": "Entre a Luz e a Sombra - Conto do Kennen",
+      "members": "Kennen",
+      "published_at": "2020-06-13",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FKennen_0.jpg&resize=:1800",
+      "thumbnail": "https://production.listennotes.com/podcasts/hist%C3%B3rias-de/entre-a-luz-e-a-sombra-conto-QyXm9A7rP6b-w_TjO3XlZ-o.1400x1400.jpg",
+      "description": "<p>Um pedido urgente veio de uma filial dos acólitos ao sul, em Ionia. O templo deles foi corrompido por um espírito maligno desconhecido. Eles não conseguiam repeli-lo, e por isso pediam a ajuda do triunvirato Kinkou.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/da/b8/5e/c7a088420db9057c37ae49656e.mp3",
+        "type": "audio/x-mp3",
+        "duration": 709
+      }
+    },
+    {
+      "id": "volibear",
+      "title": "Volibear, A Tempestade Implacável",
+      "members": "Volibear",
+      "published_at": "2020-05-09",
+      "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fvolibear-splash.jpg&resize=:1800",
+      "thumbnail": "https://production.listennotes.com/podcasts/hist%C3%B3rias-de/volibear-a-tempestade--F9UZX0Q8o1-wTPDHmlesS1.300x300.jpg",
+      "description": "<p>Para aqueles que ainda o adoram, Volibear é a forma manifestada da tempestade. Destrutivo, selvagem e implacavelmente obstinado, ele já existia antes mesmo que os mortais andassem sobre a tundra de Freljord, protegendo as terras que ele e seus irmãos semideuses criaram. Com um ódio profundo pela civilização e a vulnerabilidade que ela carrega, Volibear luta para recuperar os velhos costumes de quando a terra era selvagem e o sangue jorrava livremente. Ele enfrenta todos aqueles que ousam entrar em seu caminho com dentes, garras e a dominação do trovão.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://s3.castbox.fm/d3/ca/98/658d564699a423c164f4bd5c1b.mp3",
+        "type": "audio/x-mp3",
+        "duration": 366
+      }
+    }
+  ]
+}

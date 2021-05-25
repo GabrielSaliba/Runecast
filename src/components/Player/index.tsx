@@ -95,9 +95,9 @@ export function Player() {
                 max={episode.duration}
                 value={progress}
                 onChange={handleSeek}
-                trackStyle={{ backgroundColor: '#04D361' }}
-                railStyle={{ backgroundColor: '#9f75ff' }}
-                handleStyle={{ borderColor: '#04D361', borderWidth: 4, cursor: 'default' }}
+                trackStyle={{ backgroundColor: '#D7940E' }}
+                railStyle={{ backgroundColor: '#808080' }}
+                handleStyle={{ borderColor: '#D7940E', borderWidth: 4, cursor: 'default' }}
 
               />
             ) : (
