@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
     <PlayerContextProvider>
       <div className={styles.wrapper}>
         <main>
+          <div id='search-modal'></div>
           <Header />
           <Component {...pageProps} />
         </main>
