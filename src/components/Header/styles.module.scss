@@ -16,9 +16,8 @@
   }
 
  span {
-  margin-left: 2rem;
-  padding: 0.25rem 0 0.25rem 2rem;
-  border-left: 1px solid var(--gray-100);
+  margin-left: auto;
+  padding: 0.25rem 2rem 0.25rem 2rem;
 
   :hover {
     cursor: pointer;
