@@ -226,7 +226,7 @@
 
 .searchedEpisodes {
 
-  button{
+  button {
     width: 6rem;
     height: 2rem;
     background: var(--yellow-500);
@@ -333,6 +333,8 @@
         border: 1px solid var(--gray-200);
         border-radius: 0.675rem;
         font-size: 0;
+
+        margin-bottom: 0;
 
         transition: filter 0.3s;
 
