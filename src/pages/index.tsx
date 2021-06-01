@@ -2,14 +2,14 @@ import { GetStaticProps } from 'next';
 import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
-import { format, parseISO } from 'date-fns'
-import ptBR from 'date-fns/locale/pt-BR'
 import { api } from '../services/api';
 import { convertDurationToTimeString } from '../utils/convertDuration';
 
 import styles from './home.module.scss';
 import { usePlayer } from '../contexts/PlayerContext';
 import { formatDate } from '../utils/formatDate';
+import { useSearch } from '../contexts/SearchContext';
+import Episode from './episodes/[slug]';
 
 type Episode = {
   id: string;
@@ -29,11 +29,85 @@ type HomeProps = {
   allEpisodes: Episode[]
 }
 
+export function getSearchedEpisodes() {
+
+  const { searchString, setSearchedEpisodesList } = useSearch();
+  // filtrar: data publicação
+  // ordem: decrescente
+  // pesquisar por título
+  api.get('episodes', {
+    params: {
+      title_like: searchString,
+      _sort: 'published_at',
+      _order: 'desc'
+    }
+  }).then(response => {
+    const episodes = response.data.map(episode => {
+      return {
+        id: episode.id,
+        title: episode.title,
+        thumbnail: episode.thumbnail,
+        members: episode.members,
+        publishedAt: formatDate(episode.published_at),
+        duration: Number(episode.file.duration),
+        durationAsString: convertDurationToTimeString((episode.file.duration)),
+        url: episode.file.url,
+      };
+    })
+    setSearchedEpisodesList(episodes);
+  })
+}
+
 export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 
   const { playList, play } = usePlayer();
+  const { searchString, searchedEpisodes, clearSearch } = useSearch();
 
   const episodeList = [...latestEpisodes, ...allEpisodes];
+
+  if (searchString) {
+    getSearchedEpisodes();
+
+    return (
+      <div className={styles.homepage}>
+        <h2>Resultados encontrados para "{searchString}"</h2>
+        <section className={styles.searchedEpisodes}>
+          <button onClick={clearSearch}><span>&larr;</span> Voltar</button>
+          <ul>
+            {searchedEpisodes.map((episode) => {
+              return (
+                <li key={episode.id}>
+                  <div style={{ width: 100 }}>
+                    <Image
+                      width={192}
+                      height={192}
+                      src={episode.thumbnail}
+                      alt={episode.title}
+                      objectFit="cover"
+                    />
+                  </div>
+
+                  <div className={styles.episodeDetails}>
+                    <Link href={`/episodes/${episode.id}`}>
+                      <a>{episode.title}</a>
+                    </Link>
+                    <p>{episode.members}</p>
+                    <span>{episode.publishedAt}</span>
+                    <span>{episode.durationAsString}</span>
+                  </div>
+
+                  <button type="button" onClick={() => play(episode)}>
+                    <img src="/play-yellow.svg" alt="Tocar episódio" />
+                  </button>
+                </li>
+              )
+            })}
+          </ul>
+        </section>
+      </div>
+    )
+  }
+
 
   return (
     <div className={styles.homepage}>
@@ -105,7 +179,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                 </div>
 
                 <button type="button" onClick={() => playList(episodeList, index)}>
-                  <img src="/play-yellow.svg" alt="Tocar episódio"/>
+                  <img src="/play-yellow.svg" alt="Tocar episódio" />
                 </button>
               </li>
             )
