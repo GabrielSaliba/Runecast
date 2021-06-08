@@ -25,5 +25,6 @@
 , "server/server.js"  ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "files": ["src/styles/styled.d.ts"]
 }
