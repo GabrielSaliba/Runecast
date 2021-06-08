@@ -67,7 +67,7 @@
       "published_at": "2020-10-20",
       "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fseraphine-splash.jpg&resize=:1800",
       "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/seraphine-a-cantora-sonhadora-L1Aw6BHeMoc-xBkn9VYCmgL.300x300.jpg",
-      "description": "<p>Nesta edição especial de final de temporada tivemos a oportunidade de ter uma conversa com José Valim, dev brasileiro que criou a linguagem de programação Elixir — utilizada internacionalmente em diversas tecnologias, incluindo Discord e Pinterest.</p><p>O assunto da semana girou em diversos processos envolvidos na criação de uma linguagem nova, que propõe ser uma alternativa eficiente no mercado da tecnologia.</p><p>Além de tudo isso, Valim pôde falar de muito código e sobre a sua jornada e experiência em criar uma comunidade ativa por trás do open source.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original da Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.Nascida em Piltover e filha de zaunitas, Seraphine é capaz de ouvir a alma das pessoas. O mundo canta para ela, e ela canta em resposta. Esses sons a perturbavam quando era mais jovem, mas hoje ela os usa como inspiração, transformando o caos em uma sinfonia. A cantora se apresenta nas cidades irmãs para lembrar a seus cidadãos que eles não estão sozinhos, que são mais fortes juntos e que, aos olhos dela, o potencial deles é ilimitado.</p>",
+      "description": "<p>Em Piltover, onde sonhos individuais podem se tornar o progresso de todos, nasce uma estrela. Quando criança, Seraphine já amava música, principalmente as canções de ninar de seu pai. As canções eram lindas, porém tristes. O pai as trouxera para Piltover quando ele e a mãe de Seraphine, dois zaunitas, vieram em busca de uma vida melhor na Cidade do Progresso.Debruçada na janela da oficina de hexcústica da família, onde aparelhos quebrados voltavam a funcionar, Seraphine cantava no ritmo das ruas. As celeumas dos Portões Solares, o assobio dos aprendizes, até mesmo a melodia das conversas; em uma cidade vibrante como Piltover, ela nunca estava sozinha.</p>",
       "featured": "false",
       "file": {
         "url": "https://s3.castbox.fm/a1/2d/7e/9e779d476f8c8d2669719357ef.mp3",
@@ -132,7 +132,7 @@
       "file": {
         "url": "https://s3.castbox.fm/63/12/25/3c42ea442081d832452f17c498.mp3",
         "type": "audio/x-mp3",
-        "duration": 390
+        "duration": 408
       }
     },
     {

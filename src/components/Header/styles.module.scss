@@ -15,12 +15,18 @@
     border-left: 1px solid var(--gray-100);
   }
 
-  span {
-    margin-left: auto;
+ span {
+  margin-left: auto;
+  padding: 0.25rem 2rem 0.25rem 2rem;
+
+  :hover {
+    cursor: pointer;
+    filter: brightness(0.1);
   }
+ }
 
   img {
-    height: 3rem;
-    width: 15rem;
+    height: 2.3rem;
+    width: 10rem;
   }
 }
