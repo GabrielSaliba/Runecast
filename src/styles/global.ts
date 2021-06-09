@@ -29,11 +29,6 @@ export default createGlobalStyle`
     --primary-800: ${props => props.theme.colors.primary_800};
 
     --green-500: ${props => props.theme.colors.green_500};
-    
-    --purple-300: ${props => props.theme.colors.purple_300};
-    --purple-400: ${props => props.theme.colors.purple_400}; 
-    --purple-500: ${props => props.theme.colors.purple_500};
-    --purple-800: ${props => props.theme.colors.purple_800};
 
     --secondary-500:  ${props => props.theme.colors.secondary_500}; 
     --secondary-800: ${props => props.theme.colors.secondary_800};  
