@@ -14,15 +14,11 @@ declare module 'styled-components' {
   
       green_500: string,
   
-      purple_300: string,
-      purple_400: string,
-      purple_500: string,
-      purple_800: string,
-  
       secondary_500: string,
       secondary_800: string,
   
       white: string,
+      player_text: string,
   
       black_100: string,
       black_800: string,

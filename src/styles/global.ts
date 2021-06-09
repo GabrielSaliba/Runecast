@@ -41,7 +41,8 @@ export default createGlobalStyle`
     --black-100: ${props => props.theme.colors.black_100};
     --black-800: ${props => props.theme.colors.black_800};
 
-    --gradient: ${props => props.theme.colors.gradient},
+    --player-text: ${props => props.theme.colors.player_text};
+    --gradient: ${props => props.theme.colors.gradient};
   }
 
   body {

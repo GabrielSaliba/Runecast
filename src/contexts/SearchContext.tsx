@@ -11,11 +11,11 @@ type SearchContextData = {
 
 export const SearchContext = createContext({} as SearchContextData)
 
-type PlayerContextProviderProps = {
+type SearchContextProviderProps = {
   children: ReactNode
 }
 
-export function SearchContextProvider({ children }: PlayerContextProviderProps) {
+export function SearchContextProvider({ children }: SearchContextProviderProps) {
 
   const [searchString, setSearchString] = useState('')
   const [searchedEpisodes, setSearchedEpisodes] = useState([])

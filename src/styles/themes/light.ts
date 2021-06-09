@@ -11,15 +11,11 @@ export default {
 
     green_500: '#04D361',
 
-    purple_300: '#9F75FF',
-    purple_400: '#9164FA',
-    purple_500: '#8257E5',
-    purple_800: '#6F48C9',
-
     secondary_500: '#D7940E',
     secondary_800: '#7E590F',
 
     white: '#FFF',
+    player_text: '#FFF',
 
     black_100: '#6A6A6A',
     black_800: '#242424',

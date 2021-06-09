@@ -8,6 +8,7 @@ import { Search } from '../Search';
 import { useState } from 'react';
 import { useSearch } from '../../contexts/SearchContext';
 
+
 export function Header() {
   //https://date-fns.org/v2.21.1/docs/format
   const date = new Date();
