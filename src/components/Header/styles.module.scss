@@ -7,20 +7,26 @@
 
   padding: 2rem 4rem;
 
-  border-bottom: 1px solid var(--gray-100);
+  border-bottom: 1px solid var(--primary-100);
 
   p{
     margin-left: 2rem;
     padding: 0.25rem 0 0.25rem 2rem;
-    border-left: 1px solid var(--gray-100);
+    border-left: 1px solid var(--primary-100);
   }
 
-  span {
-    margin-left: auto;
+ span {
+  margin-left: auto;
+  padding: 0.25rem 2rem 0.25rem 2rem;
+
+  :hover {
+    cursor: pointer;
+    filter: brightness(0.1);
   }
+ }
 
   img {
-    height: 3rem;
-    width: 15rem;
+    height: 2.3rem;
+    width: 10rem;
   }
 }

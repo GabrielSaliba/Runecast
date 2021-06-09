@@ -1,4 +1,7 @@
 module.exports = {
+  env: {
+    JSON_SERVER_URI: process.env.JSON_SERVER_URI,
+  },
   images: {
     domains: [
       'storage.googleapis.com', 

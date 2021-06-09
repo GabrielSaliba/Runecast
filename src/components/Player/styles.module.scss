@@ -1,20 +1,26 @@
 .playerContainer {
   padding: 3rem 4rem;
-  width: 26.5rem;
+  width: 25rem;
   height: 100vh;
 
-  background: var(--yellow-800) ;
-  color: var(--white);
+  background: var(--secondary-800) ;
+  color: var(--player-text);
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 
-  header {
-    top: 7%;
-    position: relative;
+  .switch {
+    position: fixed;
+    bottom: 2rem;
+    left: 10rem;
+  }
+
+  .header {
+    top: 1%;
     display: flex;
+    position: relative;
     align-items: center;
     gap: 1rem;
 
@@ -66,10 +72,10 @@
 
 .emptyPlayer {
   width: 100%;
-  height: 20rem;
-  border: 1.5px dashed var(--yellow-500);
+  height: 18rem;
+  border: 1.5px dashed var(--secondary-500);
   border-radius: 1.5rem;
-  background: linear-gradient(143.8deg, rgba(238,186,83,0.8) 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(143.8deg, var(--gradient) 0%, rgba(0,0,0,0) 100%);
 
   padding: 4rem;
   text-align: center;
@@ -97,7 +103,7 @@
     .emptySlider {
       width: 100%;
       height: 4px;
-      background: var(--yellow-500);
+      background: var(--secondary-500);
       border-radius: 2px;
    }
   }
@@ -138,7 +144,7 @@
       width: 4rem;
       height: 4rem;
       border-radius: 1rem;
-      background: var(--yellow-500);
+      background: var(--secondary-500);
 
       &:hover:not(:disabled) {
         filter: brightness(0.95)

@@ -29,9 +29,9 @@ type PlayerContextData = {
 
 export const PlayerContext = createContext({} as PlayerContextData);
 
-type PlayerContextProviderProps = {
-  children: ReactNode
-}
+  type PlayerContextProviderProps = {
+    children: ReactNode
+  }
 
 export function PlayerContextProvider({ children }: PlayerContextProviderProps) {
   const [episodeList, setEpisodeList] = useState([]);
