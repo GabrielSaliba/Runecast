@@ -5,15 +5,16 @@ import { Player } from '../components/Player'
 import { PlayerContextProvider } from '../contexts/PlayerContext'
 import { SearchContextProvider } from '../contexts/SearchContext'
 import { ThemeProvider } from 'styled-components'
+import { useEffect, useState } from 'react'
+import usePersistedState from '../utils/usePersistedState'
 import GlobalStyle from '../styles/global'
 import dark from '../styles/themes/dark'
-import { useState } from 'react'
 import light from '../styles/themes/light'
 
 
 function MyApp({ Component, pageProps }) {
 
-  const [theme, setTheme] = useState(light)
+  const [theme, setTheme] = usePersistedState('@runecast/theme', light)
 
   const toggleTheme = () => {
     setTheme(theme.title === 'light' ? dark : light)
