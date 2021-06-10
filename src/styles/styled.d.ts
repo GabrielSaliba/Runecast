@@ -17,7 +17,7 @@ declare module 'styled-components' {
       secondary_500: string,
       secondary_800: string,
   
-      white: string,
+      panel_color: string,
       player_text: string,
   
       black_100: string,

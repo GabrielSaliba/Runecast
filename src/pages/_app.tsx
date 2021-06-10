@@ -4,10 +4,10 @@ import { Header } from '../components/Header'
 import { Player } from '../components/Player'
 import { PlayerContextProvider } from '../contexts/PlayerContext'
 import { SearchContextProvider } from '../contexts/SearchContext'
-import { ThemeContext, ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'styled-components'
 import GlobalStyle from '../styles/global'
 import dark from '../styles/themes/dark'
-import { useContext, useState } from 'react'
+import { useState } from 'react'
 import light from '../styles/themes/light'
 
 
