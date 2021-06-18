@@ -1,34 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Runecast</h1>
 
-## Getting Started
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-First, run the development server:
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=GNU&color=8257E5&labelColor=000000">
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+ <img src="https://img.shields.io/static/v1?label=NLW&message=05&color=8257E5&labelColor=000000" alt="NLW 05" />
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Tecnologias
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- [ReactJS](https://pt-br.reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Json-Server](https://github.com/typicode/json-server)
+- [Axios](https://github.com/axios/axios)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 💻 Projeto
 
-## Learn More
+O Runecast é uma aplicação web feita em Next e React feita a partir dos aprendizados e conhecimentos adquiridos durante a criação do projeto Podcastr da NLW #5 na [Rocketseat](https://rocketseat.com.br/). Neste projeto você poderá ouvir diversos podcasts sobre as histórias e contos do universo de [League of Legends](https://na.leagueoflegends.com/pt-br/).
 
-To learn more about Next.js, take a look at the following resources:
+## 🕹️ Funcionalidades
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Página Inicial
+- Player de podcasts
+  - Tocar/Pausar
+  - Avançar/Retroceder
+  - Loop
+  - Aleatório
+- Detalhes do episódio
+- Pesquisa de episódio
+- Tema claro/escuro
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🚀 Como executar
 
-## Deploy on Vercel
+Instale as dependências do projeto com o comando:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<pre> yarn install </pre>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Para executar o servidor:
+
+- Execute o comando `yarn server`
+
+    <pre>yarn server</pre>
+
+A API pode ser acessada em [`localhost:3001`](http://localhost:3001)
+<br><br>
+
+### Para executar a aplicação web:
+
+- Execute o comando `yarn build` e em seguida `yarn start`
+
+    <pre>  yarn build  
+    yarn start</pre>
+
+Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
+
+\*Para executar em ambiente de desenvolvimento utilize `yarn dev`
+<br><br>
+
+## 📄 Licença
+
+Esse projeto está sob a licença GNU v3.0. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
