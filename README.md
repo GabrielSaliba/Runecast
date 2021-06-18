@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Runecast é uma aplicação web feita em Next e React feita a partir dos aprendizados e conhecimentos adquiridos durante a criação do projeto Podcastr da NLW #5 na [Rocketseat](https://rocketseat.com.br/). Neste projeto você poderá ouvir diversos podcasts sobre as histórias e contos do universo de [League of Legends](https://na.leagueoflegends.com/pt-br/).
+O Runecast é uma aplicação web desenvolvida em Next e React feita a partir dos aprendizados e conhecimentos adquiridos durante a criação do projeto Podcastr da NLW #5 na [Rocketseat](https://rocketseat.com.br/). Neste projeto você poderá ouvir diversos podcasts sobre as histórias e contos do universo de [League of Legends](https://na.leagueoflegends.com/pt-br/).
 
 ## 🕹️ Funcionalidades
 
