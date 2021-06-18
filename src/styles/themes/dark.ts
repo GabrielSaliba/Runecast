@@ -14,7 +14,7 @@ export default {
     secondary_500: '#8f8f8f',
     secondary_800: '#212121',
 
-    white: '#2b2b2b',
+    panel_color: '#2b2b2b',
     player_text: '#FFF',
 
     black_100: '#6A6A6A',

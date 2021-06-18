@@ -20,7 +20,7 @@ export default createGlobalStyle`
   }
 
   :root {
-    --white: ${props => props.theme.colors.white};
+    --white: ${props => props.theme.colors.panel_color};
 
     --primary-50:${props => props.theme.colors.primary_50};
     --primary-100: ${props => props.theme.colors.primary_100};
