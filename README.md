@@ -51,7 +51,7 @@ Instale as dependências do projeto com o comando:
 
     <pre>yarn server</pre>
 
-A API pode ser acessada em [`localhost:3001`](http://localhost:3001)
+A API pode ser acessada em [`localhost:3333`](http://localhost:3333)
 <br><br>
 
 ### Para executar a aplicação web:
