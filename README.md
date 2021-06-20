@@ -61,7 +61,7 @@ A API pode ser acessada em [`localhost:3333`](http://localhost:3333)
     <pre>  yarn build  
     yarn start</pre>
 
-Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
+Agora você pode acessar [`localhost:3000/episodes`](http://localhost:3000/episodes) do seu navegador.
 
 \*Para executar em ambiente de desenvolvimento utilize `yarn dev`
 <br><br>
