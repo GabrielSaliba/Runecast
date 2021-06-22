@@ -14,7 +14,8 @@ import light from '../styles/themes/light'
 
 function MyApp({ Component, pageProps }) {
 
-  const [theme, setTheme] = usePersistedState('@runecast/theme', light)
+  // const [theme, setTheme] = usePersistedState('@runecast/theme', light)
+  const [theme, setTheme] = useState(light);
 
   const toggleTheme = () => {
     setTheme(theme.title === 'light' ? dark : light)

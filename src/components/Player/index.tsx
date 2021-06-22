@@ -3,16 +3,14 @@ import Image from 'next/image'
 import Slider from 'rc-slider'
 import Switch from 'react-switch'
 import light from '../../styles/themes/light'
+import dark from '../../styles/themes/dark'
+import styles from './styles.module.scss'
 
 import 'rc-slider/assets/index.css';
 
 import { usePlayer } from '../../contexts/PlayerContext'
-
-import styles from './styles.module.scss'
 import { convertDurationToTimeString } from '../../utils/convertDuration';
 import { ThemeContext } from 'styled-components'
-import { Console } from 'node:console'
-import dark from '../../styles/themes/dark'
 
 export function Player({toggleTheme}) {
 
