@@ -128,7 +128,7 @@
       "banner": "https://am-a.akamaihd.net/image?f=https%3A%2F%2Fddragon.leagueoflegends.com%2Fcdn%2Fimg%2Fchampion%2Fsplash%2FYasuo_0.jpg&resize=:1800",
       "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/yasuo-o-imperdo%C3%A1vel-LOYtWe5Sncf-5qYMfRpAl79.300x300.jpg",
       "description": "<p>Yasuo, um ioniano extremamente determinado, é também um ágil espadachim que usa o próprio ar como arma para enfrentar seus inimigos. Quando jovem, ele teve seu orgulho ferido ao ser acusado injustamente do assassinato de seu mestre — sem conseguir provar sua inocência, ele foi forçado a matar o próprio irmão para se defender. Até hoje, mesmo depois do verdadeiro assassino do seu mestre ter sido revelado, Yasuo ainda não consegue se perdoar e vaga por sua terra natal com apenas o vento para guiar sua espada.</p>",
-      "featured": "false",
+      "featured": "true",
       "file": {
         "url": "https://s3.castbox.fm/63/12/25/3c42ea442081d832452f17c498.mp3",
         "type": "audio/x-mp3",
@@ -158,7 +158,7 @@
       "banner": "https://universe-meeps.leagueoflegends.com/v1/assets/images/legend-of-the-frozen-watchers-splash.jpg",
       "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/hist%C3%B3rias-de/a-lenda-dos-observadores-zDuZvcdXLp7-bW1RU_DjcOp.300x300.jpg",
       "description": "<p>De todos os contos da velha Freljord que chegaram até a era moderna, há um, e apenas um, que pode gelar o sangue até do mais forte dos Glacinatas. Os Praeglacius não o contam. A maioria deles nem o conhece por inteiro. Por decreto de Lissandra, a própria Bruxa Gélida, perpetuar esta lenda proibida é uma heresia contra a verdadeira fé, e a pena é morte para qualquer um que ousar contá-la em voz alta. </p>",
-      "featured": "true",
+      "featured": "false",
       "file": {
         "url": "https://s3.castbox.fm/82/1b/82/48782348c8a22992ef6b027810.mp3",
         "type": "audio/x-mp3",
@@ -193,6 +193,51 @@
         "url": "https://s3.castbox.fm/d3/ca/98/658d564699a423c164f4bd5c1b.mp3",
         "type": "audio/x-mp3",
         "duration": 366
+      }
+    },
+    {
+      "id": "o-lamento-do-principe",
+      "title": "Através da Névoa | O Lamento do Príncipe",
+      "members": "Viego, Kalista, Thresh",
+      "published_at": "2021-06-28",
+      "banner": "https://universe-meeps.leagueoflegends.com/v1/assets/images/factions/image-gallery/shadow-isles-vaults.jpg",
+      "thumbnail": "https://runecast-storage.s3.sa-east-1.amazonaws.com/episode-images/atraves-da-nevoa-01.jpg",
+      "description": "<p>Escute atentamente Através da Névoa, o Lamento do Príncipe e seu amor por uma plebeia. Através da Névoa é uma série regional brasileira de AudioDramas de League of Legends que reconta e relembra histórias relacionadas à Névoa Negra, Viego e os personagens que participarão do próximo Evento Sentinelas da Luz.<br><br>Leia o Conto na página do <a href=\"https://riot.com/3dGtwrt\" target=\"_blank\">universo</a>.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://runecast-storage.s3.sa-east-1.amazonaws.com/episode-audio/atraves-da-nevoa-01.mp3",
+        "type": "audio/x-mp3",
+        "duration": 392
+      }
+    },
+     {
+      "id": "viego-atraves-da-nevoa",
+      "title": "Através da Névoa | Viego: o Rei Destruído",
+      "members": "Viego",
+      "published_at": "2021-06-29",
+      "banner": "https://universe-meeps.leagueoflegends.com/v1/assets/images/viego-splash.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/wnOFTqYKCj8/mqdefault.jpg",
+      "description": "<p>Escute atentamente Através da Névoa, o urro de fúria de Viego, o Rei Destruído pela dor da tragédia. Através da Névoa é uma série regional brasileira de AudioDramas de League of Legends que reconta e relembra histórias relacionadas à Névoa Negra, Viego e os personagens que participarão do próximo Evento Sentinelas da Luz.<br><br>Leia o Conto na página do <a href=\"https://riot.com/3vZZapX\" target=\"_blank\">universo</a>.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://runecast-storage.s3.sa-east-1.amazonaws.com/episode-audio/atraves-da-nevoa-02.mp3",
+        "type": "audio/x-mp3",
+        "duration": 348
+      }
+    },
+    {
+      "id": "thresh-atraves-da-nevoa",
+      "title": "Através da Névoa | Thresh: o Guardião das Correntes",
+      "members": "Thresh, Lucian",
+      "published_at": "2021-06-30",
+      "banner": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/wnOFTqYKCj8/mqdefault.jpg",
+      "description": "<p>Escute atentamente Através da Névoa, o arrastar de Correntes de Thresh, o amargurado e cruel Guardião da Ilha das Bênçãos. Através da Névoa é uma série regional brasileira de AudioDramas de League of Legends que reconta e relembra histórias relacionadas à Névoa Negra, Viego e os personagens que participarão do próximo Evento Sentinelas da Luz.<br><br>Leia o Conto na página do <a href=\"https://riot.com/2T8Fxik\" target=\"_blank\">universo</a>.</p>",
+      "featured": "false",
+      "file": {
+        "url": "https://runecast-storage.s3.sa-east-1.amazonaws.com/episode-audio/atraves-da-nevoa-03.mp3",
+        "type": "audio/x-mp3",
+        "duration": 382
       }
     }
   ]
