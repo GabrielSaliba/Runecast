@@ -1,15 +1,18 @@
 import { useContext, useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import Slider from 'rc-slider'
+import Switch from 'react-switch'
+import light from '../../styles/themes/light'
+import dark from '../../styles/themes/dark'
+import styles from './styles.module.scss'
 
 import 'rc-slider/assets/index.css';
 
 import { usePlayer } from '../../contexts/PlayerContext'
-
-import styles from './styles.module.scss'
 import { convertDurationToTimeString } from '../../utils/convertDuration';
+import { ThemeContext } from 'styled-components'
 
-export function Player() {
+export function Player({toggleTheme}) {
 
   const {
     episodeList,
@@ -30,6 +33,7 @@ export function Player() {
 
   const episode = episodeList[currentEpisodeIndex]
   const audioRef = useRef<HTMLAudioElement>(null)
+  const {title, colors} = useContext(ThemeContext)
 
   const [progress, setProgress] = useState(0);
 
@@ -67,10 +71,22 @@ export function Player() {
 
   return (
     <div className={styles.playerContainer}>
-      <header>
+      <div>
+        <Switch
+          className={styles.switch}
+          onChange={toggleTheme}
+          checked={title === 'dark'}
+          uncheckedIcon={false}
+          checkedIcon={false}
+          offColor={light.colors.secondary_500}
+          onColor={dark.colors.secondary_500}
+          
+        />
+      </div>
+      <div className={styles.header}>
         <img src="/playing.svg" alt="Tocando agora" />
         <strong>Tocando agora</strong>
-      </header>
+      </div>
 
       { episode ? (
         <div className={styles.currentEpisode}>
@@ -95,9 +111,9 @@ export function Player() {
                 max={episode.duration}
                 value={progress}
                 onChange={handleSeek}
-                trackStyle={{ backgroundColor: '#D7940E' }}
-                railStyle={{ backgroundColor: '#808080' }}
-                handleStyle={{ borderColor: '#D7940E', borderWidth: 4, cursor: 'default' }}
+                trackStyle={{ backgroundColor: colors.secondary_500 }}
+                railStyle={{ backgroundColor: colors.primary_500 }}
+                handleStyle={{ borderColor: colors.secondary_500, borderWidth: 4, cursor: 'default' }}
 
               />
             ) : (
