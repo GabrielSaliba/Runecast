@@ -8,7 +8,10 @@ module.exports = {
       'cdn-images-1.listennotes.com', 
       'am-a.akamaihd.net',
       'universe-meeps.leagueoflegends.com',
-      'production.listennotes.com'
+      'production.listennotes.com',
+      'runecast-storage.s3.sa-east-1.amazonaws.com',
+      'i.ytimg.com',
+      'ddragon.leagueoflegends.com'
     ],
   }
 };
